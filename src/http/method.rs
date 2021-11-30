@@ -1,6 +1,7 @@
 use crate::http::ParseError;
 use std::str::FromStr;
 
+#[derive(Debug)]
 pub enum Method {
     GET,
     POST,
